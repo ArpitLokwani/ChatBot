@@ -15,12 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MBChat" translatesAutoresizingMaskIntoConstraints="NO" id="sw8-tb-9W8">
-                                <rect key="frame" x="94" y="267" width="239" height="184"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MBChat" translatesAutoresizingMaskIntoConstraints="NO" id="sw8-tb-9W8">
+                                <rect key="frame" x="147" y="393" width="120" height="120"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sw8-tb-9W8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8dO-BB-4eU"/>
+                            <constraint firstItem="sw8-tb-9W8" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="9hi-Zy-qRG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
